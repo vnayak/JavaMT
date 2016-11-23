@@ -70,6 +70,7 @@ class CallableImpl implements Callable<Integer> {
     }
 }
 
+//CallableTester function
 public class CallableTester {
 
     public static void main(String[] args) throws InterruptedException {

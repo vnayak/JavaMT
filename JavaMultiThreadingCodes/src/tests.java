@@ -16,6 +16,7 @@ public class tests {
             System.out.println("Integer random is: " + random.nextInt(10));
         }
         //semaphore , number of permits
+        System.out.println("new semaphore creation");
         Semaphore sem = new Semaphore(1);
         sem.acquire();
         sem.release();

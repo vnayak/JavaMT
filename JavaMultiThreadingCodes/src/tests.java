@@ -17,6 +17,7 @@ public class tests {
         }
         //semaphore , number of permits
         System.out.println("new semaphore creation");
+        //creating a semaphore
         Semaphore sem = new Semaphore(1);
         sem.acquire();
         sem.release();
